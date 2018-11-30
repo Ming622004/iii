@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>repl.it</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">CB104</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="#">首頁</a>
+				</li>
+				<li>
+					<a href="#">我的最愛</a>
+				</li>
+				<li>
+					<a href="#">個人資料</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<img class="img-responsive" src="https://lh3.googleusercontent.com/e-MHSZhpcy3qa9ahZICKqpTjD0Tlg2J5KA60LKnaeIbNeYB2tSOGXsTuveg2YkyHXhv990955BaREUE_EaQzgEaCzmSZR6LX_RgxSU9J">
+	</div>
+	<!-- comment -->
+	<div class="container">
+		<div class="col-sm-6 col-sm-offset-3">
+			<table class="table">
+				<thead>
+					<tr class="danger">
+						<th>姓名</th>
+						<th>身高</th>
+						<th>體重</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="info">
+						<td>Elwing</td>
+						<td>175</td>
+						<td>75</td>
+					</tr>
+					<tr class="success">
+						<td>Bob</td>
+						<td>180</td>
+						<td>80</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-sm-6 col-sm-offset-3">
+			<form action="/target" method="GET">
+				<div class="form-group">
+					<label for="email">Email address:</label>
+					<input name="e" type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input name="p" type="password" class="form-control" id="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input name="r" type="checkbox"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-danger btn-block">Submit</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>
+
+
+
+
+=================================================
+
+
+
+.navbar-inverse{
+  background-color: #2F4F4F;
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+}
